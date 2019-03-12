@@ -1,0 +1,3 @@
+modify tolerance2
+
+change fitness calculation

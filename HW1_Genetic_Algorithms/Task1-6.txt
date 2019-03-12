@@ -1,0 +1,181 @@
+Generation 	 BestPhrase 	 MaximumFitness 	 AverageFitness 	 GeneticDiversity 
+1            TEalcRFxePfNyIswbi     0.111111             0.017778                  0.093333 
+2            TSx vjOLYwotVWlgHz     0.166667             0.087778                  0.078889 
+3            EIUIeEWLInotVWlgHz     0.222222             0.139167                  0.083056 
+4            TcuDFcozvnWO SF Lf     0.277778             0.176111                  0.101667 
+5            cQJcnwozInot QF Lf     0.333333             0.200556                  0.132778 
+6            TSOsbTbrInot KR wx     0.388889             0.243611                  0.145278 
+7            TEDbFcxrInot KR Zx     0.444444             0.280278                  0.164167 
+8            TSxbnwozInot QF bp     0.500000             0.342500                  0.157500 
+9            TpnbnwozInot QF bp     0.500000             0.384444                  0.115556 
+10            TcVbnwozvnot QF bz     0.500000             0.422222                  0.077778 
+11            TEDbFcxrInot QF bf     0.500000             0.437500                  0.062500 
+12            TOJbnworInot KR bf     0.555556             0.444722                  0.110833 
+13            TEVbYTbr not KR bt     0.555556             0.455000                  0.100556 
+14            TcVDewor not KR bp     0.611111             0.471389                  0.139722 
+15            TEDbewor not KR bp     0.666667             0.483611                  0.183056 
+16            TEDbewor not KR bp     0.666667             0.501389                  0.165278 
+17            TSnbewor not QF bp     0.666667             0.521667                  0.145000 
+18            TEObewor not QF br     0.666667             0.549444                  0.117222 
+19            TQxbewor not KR bN     0.666667             0.566389                  0.100278 
+20            TcDbewor not QF bf     0.666667             0.578056                  0.088611 
+21            TSnbewor not KR bp     0.666667             0.594722                  0.071944 
+22            TEDbewor not OF bp     0.666667             0.611389                  0.055278 
+23            Tlnbewor not OF bp     0.666667             0.620556                  0.046111 
+24            TEObesor not UF bp     0.666667             0.633333                  0.033333 
+25            TSnbewor not KR bp     0.666667             0.639722                  0.026944 
+26            TQnbewor not UF bp     0.666667             0.644167                  0.022500 
+27            TQnbewor not tR bi     0.722222             0.650278                  0.071944 
+28            TSxbewor not QF be     0.722222             0.650833                  0.071389 
+29            TgObewor not UF be     0.722222             0.651111                  0.071111 
+30            TSxbewor not QR be     0.722222             0.655556                  0.066667 
+31            TLnbewor not KR be     0.722222             0.660833                  0.061389 
+32            TQxbewor not UI be     0.722222             0.659722                  0.062500 
+33            TEDbewor not UF be     0.722222             0.660278                  0.061944 
+34            TSxbewor not QF be     0.722222             0.659167                  0.063056 
+35            TcDbewor not QF be     0.722222             0.664167                  0.058056 
+36            TSnbewor not UF be     0.722222             0.669167                  0.053056 
+37            TgObewor not UF be     0.722222             0.677500                  0.044722 
+38            TEDbeSor not UF be     0.722222             0.685278                  0.036944 
+39            TEDbeSor not tF be     0.777778             0.687778                  0.090000 
+40            TExbewor not tF be     0.777778             0.693889                  0.083889 
+41            TgObewor not tF be     0.777778             0.700556                  0.077222 
+42            TExbewor not tF be     0.777778             0.704167                  0.073611 
+43            TOxbewor not tF be     0.777778             0.709444                  0.068333 
+44            TExbewor not tF be     0.777778             0.713889                  0.063889 
+45            TEDbewor not tF be     0.777778             0.718889                  0.058889 
+46            TEDbewor not tF be     0.777778             0.726944                  0.050833 
+47            TSxbewor not tF be     0.777778             0.729444                  0.048333 
+48            TExbewor not tF be     0.777778             0.735000                  0.042778 
+49            TExbewor not tF be     0.777778             0.736944                  0.040833 
+50            TS bewor not tF be     0.833333             0.743611                  0.089722 
+51            TS bewor not tF be     0.833333             0.749444                  0.083889 
+52            TS bewor not tF be     0.833333             0.756389                  0.076944 
+53            TS bewor not tF be     0.833333             0.763611                  0.069722 
+54            TS bewor not tF be     0.833333             0.766667                  0.066667 
+55            TS bewor not tF be     0.833333             0.770556                  0.062778 
+56            TE bewor not tF be     0.833333             0.780556                  0.052778 
+57            TL bewor not tF be     0.833333             0.790833                  0.042500 
+58            TE bewor not tF be     0.833333             0.797222                  0.036111 
+59            TS beqor not tF be     0.833333             0.801389                  0.031944 
+60            Tn bewor not tF be     0.833333             0.802778                  0.030556 
+61            TE bewor not tF be     0.833333             0.811111                  0.022222 
+62            TE bewor not tF be     0.833333             0.817500                  0.015833 
+63            TS beqor not tI be     0.833333             0.817500                  0.015833 
+64            TE beior not tF be     0.833333             0.817222                  0.016111 
+65            TS bewor not tF be     0.833333             0.816389                  0.016944 
+66            TE bewor not t  be     0.833333             0.813889                  0.019444 
+67            TS bewor not tF be     0.833333             0.810833                  0.022500 
+68            TS beqor not tF be     0.833333             0.816389                  0.016944 
+69            TS bewor not tk be     0.833333             0.815556                  0.017778 
+70            TS bewor not tI be     0.833333             0.819722                  0.013611 
+71            TS beqor not tF be     0.833333             0.819167                  0.014167 
+72            TE bewor not tF be     0.833333             0.818611                  0.014722 
+73            TS bewor not tI be     0.833333             0.817778                  0.015556 
+74            TS beNor not tF be     0.833333             0.818333                  0.015000 
+75            TS bekor not tF be     0.833333             0.819444                  0.013889 
+76            TS bewor not tF be     0.833333             0.815556                  0.017778 
+77            TM bewor not tF be     0.833333             0.814167                  0.019167 
+78            TS bewor not tF be     0.833333             0.818056                  0.015278 
+79            TS beDor not tF be     0.833333             0.815556                  0.017778 
+80            TS bewor not tF be     0.833333             0.815556                  0.017778 
+81            Tp bewor not tc be     0.833333             0.818333                  0.015000 
+82            TM bewor not tF be     0.833333             0.818889                  0.014444 
+83            TS bewor not tF be     0.833333             0.816944                  0.016389 
+84            TS bewor not tF be     0.833333             0.815278                  0.018056 
+85            Tb bewor not tF be     0.833333             0.819167                  0.014167 
+86            Tr bewor not tF be     0.833333             0.820833                  0.012500 
+87            TS bewor not tF be     0.833333             0.819444                  0.013889 
+88            TE bewor not tF be     0.833333             0.821667                  0.011667 
+89            TS bewor not tF be     0.833333             0.821389                  0.011944 
+90            TE bewor not tF be     0.833333             0.819444                  0.013889 
+91            TH bewor not tF be     0.833333             0.818333                  0.015000 
+92            TE bewor not tF be     0.833333             0.818889                  0.014444 
+93            TS beior not tV be     0.833333             0.819167                  0.014167 
+94            TS bewor not tF be     0.833333             0.818889                  0.014444 
+95            Tb be or not tI be     0.888889             0.818611                  0.070278 
+96            Tb be or not tI be     0.888889             0.817222                  0.071667 
+97            TM bewor not tF be     0.833333             0.818889                  0.014444 
+98            TE beFor not tF be     0.833333             0.816389                  0.016944 
+99            To beXor not tF be     0.888889             0.815000                  0.073889 
+100            TS beior not tF be     0.833333             0.813056                  0.020278 
+101            TS bewor not tF be     0.833333             0.816111                  0.017222 
+102            TS bewor not tF be     0.833333             0.816944                  0.016389 
+103            TS bewor not tF be     0.833333             0.817500                  0.015833 
+104            TM beior not tx be     0.833333             0.817778                  0.015556 
+105            TM bewor not tF be     0.833333             0.819722                  0.013611 
+106            TM beior not tF be     0.833333             0.817778                  0.015556 
+107            TS bewor not tF be     0.833333             0.819722                  0.013611 
+108            TM bewor not tF be     0.833333             0.819444                  0.013889 
+109            TS bewor not tR be     0.833333             0.818889                  0.014444 
+110            TS bewor not tF be     0.833333             0.818333                  0.015000 
+111            TS beior not tA be     0.833333             0.821389                  0.011944 
+112            TS be or not tF be     0.888889             0.821667                  0.067222 
+113            TS bewor not to be     0.888889             0.821111                  0.067778 
+114            TS bewor not to be     0.888889             0.822778                  0.066111 
+115            Tz bewor not to be     0.888889             0.820833                  0.068056 
+116            TS beJor not to be     0.888889             0.823056                  0.065833 
+117            TM beVor not to be     0.888889             0.825833                  0.063056 
+118            TS bewor not to be     0.888889             0.834444                  0.054444 
+119            Tz bewor not to be     0.888889             0.836944                  0.051944 
+120            TS bewor not to be     0.888889             0.839722                  0.049167 
+121            TS beVor not to be     0.888889             0.836667                  0.052222 
+122            Ts beior not to be     0.888889             0.846944                  0.041944 
+123            TS beior not to be     0.888889             0.849444                  0.039444 
+124            TS beior not to be     0.888889             0.859722                  0.029167 
+125            TM beior not to be     0.888889             0.861111                  0.027778 
+126            TS beior not to be     0.888889             0.861389                  0.027500 
+127            To beVor not to be     0.944444             0.860278                  0.084167 
+128            To beVor not to be     0.944444             0.865833                  0.078611 
+129            To bewor not to be     0.944444             0.865556                  0.078889 
+130            To bewor not to be     0.944444             0.868611                  0.075833 
+131            To bewor not to be     0.944444             0.868889                  0.075556 
+132            To bewor not to be     0.944444             0.868611                  0.075833 
+133            To bewor not to be     0.944444             0.865556                  0.078889 
+134            To beior not to be     0.944444             0.873889                  0.070556 
+135            To bewor not to be     0.944444             0.878056                  0.066389 
+136            To bewor not to be     0.944444             0.875833                  0.068611 
+137            To bewor not to be     0.944444             0.882500                  0.061944 
+138            To beior not to be     0.944444             0.890000                  0.054444 
+139            To beior not to be     0.944444             0.898333                  0.046111 
+140            To beCor not to be     0.944444             0.901944                  0.042500 
+141            To beRor not to be     0.944444             0.905000                  0.039444 
+142            To bewor not to be     0.944444             0.909444                  0.035000 
+143            To beBor not to be     0.944444             0.911111                  0.033333 
+144            To bewor not to be     0.944444             0.913333                  0.031111 
+145            To beior not to be     0.944444             0.920278                  0.024167 
+146            To bemor not to be     0.944444             0.920556                  0.023889 
+147            To behor not to be     0.944444             0.922778                  0.021667 
+148            To beBor not to be     0.944444             0.920278                  0.024167 
+149            To bewor not to be     0.944444             0.923333                  0.021111 
+150            To bewor not to be     0.944444             0.923333                  0.021111 
+151            To bewor not to be     0.944444             0.925278                  0.019167 
+152            To bewor not to be     0.944444             0.928056                  0.016389 
+153            To beBor not to be     0.944444             0.926667                  0.017778 
+154            To beBor not to be     0.944444             0.925000                  0.019444 
+155            To beior not to be     0.944444             0.925556                  0.018889 
+156            To beRor not to be     0.944444             0.920278                  0.024167 
+157            To beXor not to be     0.944444             0.920833                  0.023611 
+158            To beBor not to be     0.944444             0.920833                  0.023611 
+159            To beRor not to be     0.944444             0.919722                  0.024722 
+160            To behor not to be     0.944444             0.918889                  0.025556 
+161            To bemor not to be     0.944444             0.916944                  0.027500 
+162            To bewor not to be     0.944444             0.917222                  0.027222 
+163            To bewor not to be     0.944444             0.922500                  0.021944 
+164            To bemor not to be     0.944444             0.923611                  0.020833 
+165            To beRor not to be     0.944444             0.922222                  0.022222 
+166            To beFor not to be     0.944444             0.920556                  0.023889 
+167            To behor not to be     0.944444             0.924444                  0.020000 
+168            To bepor not to be     0.944444             0.923333                  0.021111 
+169            To beRor not to be     0.944444             0.927500                  0.016944 
+170            To beBor not to be     0.944444             0.922222                  0.022222 
+171            To beRor not to be     0.944444             0.923611                  0.020833 
+172            To beRor not to be     0.944444             0.924167                  0.020278 
+173            To beior not to be     0.944444             0.927778                  0.016667 
+174            To beVor not to be     0.944444             0.925000                  0.019444 
+175            To bewor not to be     0.944444             0.928611                  0.015833 
+176            To beRor not to be     0.944444             0.929167                  0.015278 
+177            To beRor not to be     0.944444             0.929722                  0.014722 
+178            To beRor not to be     0.944444             0.927222                  0.017222 
+179            To beior not to be     0.944444             0.924722                  0.019722 
+180            To be or not to be     1.000000             0.923889                  0.076111 
