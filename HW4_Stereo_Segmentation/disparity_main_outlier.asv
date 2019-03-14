@@ -10,9 +10,12 @@
 load('handshakeStereoParams.mat');
 
 % Visualize camera extrinsics.
-%showExtrinsics(stereoParams);
+showExtrinsics(stereoParams);
 %% Create Video File Readers and the Video Player
 % Create System Objects for reading and displaying the video.
+
+stereoParams.CameraParameters1.FocalLength
+stereoParams.CameraParameters2.
 
 videoFileLeft = 'handshake_left.avi';
 videoFileRight = 'handshake_right.avi';
@@ -31,15 +34,15 @@ player = vision.DeployableVideoPlayer('Location', [20, 400]);
 frameLeft = readerLeft.step();
 frameRight = readerRight.step();
 
-imL = imread('frame1L.png');
-imR = imread('frame1R.png');
+% imR = imread('frame_1L.png');
+% imL = imread('frame_1R.png');
 
 
 [frameLeftRect, frameRightRect] = ...
     rectifyStereoImages(frameLeft, frameRight, stereoParams);
 
-[frameLeftRect, frameRightRect] = ...
-    rectifyStereoImages(frameLeft, frameRight, stereoParams);
+% [frameLeftRect, frameRightRect] = ...
+%     rectifyStereoImages(imL, imR, stereoParams);
 
 %figure;
 %imshow(stereoAnaglyph(frameLeftRect, frameRightRect));
