@@ -12,6 +12,7 @@ halfWindow = (windowSize-1)/2;
 
 for i = halfWindow+1:r-halfWindow
     matched = zeros(1,c);
+    prev_offset = 0;
     for j = halfWindow+1:c-64-halfWindow
         best_offset = 0;
         min_ssd = 10000000;
@@ -29,12 +30,17 @@ for i = halfWindow+1:r-halfWindow
                 best_offset = k; 
             end            
         end
-        matched(j+best_offset)=1;
-        disparityMap(i,j)=best_offset;
+        if min_ssd<5
+            prev_offset = best_offset;
+            matched(j+best_offset)=1;
+            disparityMap(i,j)=best_offset;
+        else
+            %disparityMap(i,j)=prev_offset;
+        end
     end
     if mod(i, 5)==0
         percentage = num2str(floor((i-halfWindow)/(r-halfWindow-halfWindow)*100));
-        dispText = ['Disparity_SSD ', num2str(windowSize), ' ----------- %', percentage];
+        dispText = ['Disparity_SSD_Unique ', num2str(windowSize), ' ----------- %', percentage];
         disp(dispText);
     end
 end

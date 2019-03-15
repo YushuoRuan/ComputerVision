@@ -18,7 +18,9 @@ for i = halfWindow+1:r-halfWindow
         %for k = 1:max_offset
         for k=0:64
             
-            
+            if matched(j+k)==1
+                continue;
+            end
             
             windowL = frameLeftGray(i-halfWindow:i+halfWindow, j+k-halfWindow:j+k+halfWindow);
             windowR = frameRightGray(i-halfWindow:i+halfWindow, j-halfWindow:j+halfWindow);
@@ -31,13 +33,15 @@ for i = halfWindow+1:r-halfWindow
             ncc = tmp1/sqrt(tmp2*tmp3);
            
             
-            if (ncc>max_ncc) && (matched(j+k)~=1)
+            if ncc>max_ncc
                 max_ncc = ncc;
                 best_offset = k;
             end
         end
-        disparityMap(i,j)=best_offset;
-        matched(j+best_offset) = 1;
+        if max_ncc > 0.998
+            disparityMap(i,j)=best_offset;
+            matched(j+best_offset) = 1;
+        end
     end
      if mod(i, 5)==0
         percentage = num2str(floor((i-halfWindow)/(r-halfWindow-halfWindow)*100));

@@ -9,11 +9,6 @@
 % Load the stereoParameters object.
 load('handshakeStereoParams.mat');
 
-stereoParams.TranslationOfCamera2
-
-stereoParams.CameraParameters1.FocalLength
-stereoParams.CameraParameters1.FocalLength
-
 % Visualize camera extrinsics.
 %showExtrinsics(stereoParams);
 %% Create Video File Readers and the Video Player
@@ -49,15 +44,16 @@ frameRight = readerRight.step();
 % and it is proportional to the distance of the corresponding world point from 
 % the camera.
 
-imgL = imread('frame_1L.png');
-imgR = imread('frame_1R.png');
-
-frameLeftGray  = rgb2gray(imgL);
-frameRightGray = rgb2gray(imgR);
+% imgL = imread('frame_1L.png');
+% imgR = imread('frame_1R.png');
+% frameLeftGray  = rgb2gray(imgL);
+% frameRightGray = rgb2gray(imgR);
+% 
+frameLeftGray  = rgb2gray(frameLeftRect);
+frameRightGray = rgb2gray(frameRightRect);
     
-% disparityMapUnique = disparity_NCC_unique(frameLeftGray, frameRightGray, 5);
-% disparityMap = disparity_NCC(frameLeftGray, frameRightGray, 5);
-
+ disparityMapUnique = disparity_SSD_unique(frameLeftGray, frameRightGray, 5);
+ disparityMap = disparity_SSD(frameLeftGray, frameRightGray, 5);
 
 figure;
 subplot(1,2,1)
