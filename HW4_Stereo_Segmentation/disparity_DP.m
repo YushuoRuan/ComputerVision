@@ -1,0 +1,1 @@
+function disparityMap = disparity_DP(frameLeftGray, frameRightGray, windowSize)
