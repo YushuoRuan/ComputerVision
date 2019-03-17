@@ -15,8 +15,8 @@ showExtrinsics(stereoParams);
 % Create System Objects for reading and displaying the video.
 
 stereoParams.CameraParameters1.FocalLength
-stereoParams.CameraParameters1.TranslationVectors
-stereoParams.CameraParameters2.TranslationVectors
+stereoParams.TranslationOfCamera2
+
 
 videoFileLeft = 'handshake_left.avi';
 videoFileRight = 'handshake_right.avi';
