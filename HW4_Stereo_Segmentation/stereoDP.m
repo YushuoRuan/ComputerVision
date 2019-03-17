@@ -35,7 +35,7 @@ for i = 2:row+1
     end
 end
 
-disparityLine = zeros(1, row);
+disparityLine =NaN(1, row);
 
 ri = row+1;
 cj = col+1;
