@@ -1,53 +1,70 @@
-imL = imread('frame_1L.png');
-imR = imread('frame_1R.png');
+%disparityMapSSD = disparity_SSD(frameLeftGray2, frameRightGray2, 5);
+%disparityMapNCC = disparity_NCC(frameLeftGray2, frameRightGray2, 5);
+%diaparityMapUnique = disparity_NCC_unique(frameLeftGray2, frameRightGray2, 5);
+diaparityGT = double(imread('frame_1RL.png'));
 
-frameLeftGray  = rgb2gray(imL);
-frameRightGray = rgb2gray(imR);
-    
-disparityMapRL = disparity_SSD_RL(frameLeftGray, frameRightGray, 5);
-disparityMapLR = disparity_SSD(frameLeftGray, frameRightGray, 5);
-%disparityMapRL2 = disparity_SSD(frameRightGray, frameLeftGray, 5);
+%1. Compare disparity maps visually by plotting side by side
+figure;
+subplot(2,2,1);
+imshow(disparityMapSSD, [0,64]);
+title('Disparity Map SSD5');
+colormap jet
+colorbar
 
-disparityMapNccRL = disparity_NCC_RL(frameLeftGray, frameRightGray, 5);
-disparityMapNccLR = disparity_NCC(frameLeftGray, frameRightGray, 5);
+subplot(2,2,2);
+imshow(disparityMapNCC, [0,64]);
+title('Disparity Map NCC5');
+colormap jet
+colorbar
 
-outlierMapSSD = outliers(disparityMapLR,disparityMapRL,1);
-outlierMapNCC = outliers(disparityMapNccLR,disparityMapNccRL,1);
+subplot(2,2,3);
+imshow(diaparityMapUnique, [0,64]);
+title('Disparity Map Uniqueness');
+colormap jet
+colorbar
+
+subplot(2,2,4);
+imshow(diaparityGT, [0,64]);
+title('Ground truth');
+colormap jet
+colorbar
+
+
+%2.Calculate a map of errors and display it
+SSDError = sqrt((disparityMapSSD-diaparityGT).^2);
+NCCError = sqrt((disparityMapNCC-diaparityGT).^2);
+uniqueError = sqrt((diaparityMapUnique-diaparityGT).^2);
 
 figure;
-subplot(2,3,1);
-imshow(disparityMapLR, [0, 64]);
-title('Disparity Map SSD LR');
-colormap jet
-colorbar
+subplot(2,2,1);
+imshow(SSDError);
+title('SSD Error');
 
-subplot(2,3,2);
-imshow(disparityMapRL, [0, 64]);
-title('Disparity Map SSD RL');
-colormap jet
-colorbar
+subplot(2,2,2);
+imshow(NCCError);
+title('NCC Error');
 
-subplot(2,3,3);
-imshow(outlierMapSSD, [0, 2]);
-title('Outlier Map SSD');
-colormap jet
-colorbar
+subplot(2,2,3);
+imshow(uniqueError);
+title('Uniqueness Error');
 
 
-subplot(2,3,4);
-imshow(disparityMapNccLR, [0, 64]);
-title('Disparity Map NCC LR');
-colormap jet
-colorbar
+%3. Calculate a histogram of disparity differences and display it
 
-subplot(2,3,5);
-imshow(disparityMapNccRL, [0, 64]);
-title('Disparity Map NCC RL');
-colormap jet
-colorbar
+figure;
+subplot(2,2,1);
+hist(SSDError(:))
+title('SSD Error');
 
-subplot(2,3,6);
-imshow(outlierMapNCC, [0, 2]);
-title('Outlier Map NCC');
-colormap jet
-colorbar
+subplot(2,2,2);
+hist(NCCError(:))
+title('NCC Error');
+
+subplot(2,2,3);
+hist(uniqueError(:))
+title('Uniqueness Error');
+
+
+
+
+

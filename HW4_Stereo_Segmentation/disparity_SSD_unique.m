@@ -1,3 +1,9 @@
+%======================
+%Yushuo Ruan                             
+%CSCI 5722
+%Assignment #4 Stereo_Segmentation
+%Instructor: Ioana Fleming
+%======================
 function disparityMap = disparity_SSD_unique(frameLeftGray, frameRightGray, windowSize)
 
 frameLeftGray = double(frameLeftGray);
