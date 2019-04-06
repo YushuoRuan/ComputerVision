@@ -20,4 +20,10 @@ function features = ComputePositionColorFeatures(img)
     %                              YOUR CODE HERE                             %
     %                                                                         %
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    color_feature = ComputeColorFeatures(img);
+    features(:,:,[1 2 3])=color_feature(:,:,[1 2 3]);
+    
+    [X,Y] = ndgrid(1:height,1:width);
+    features(:,:,4) = Y;
+    features(:,:,5) = X;
 end
