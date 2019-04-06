@@ -192,21 +192,18 @@ function idx = HAClustering(X, k, visualize2D)
         %                            YOUR CODE HERE                           %
         %                                                                     %
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%        dists = squareform(pdist(centroids));
-%        dists = dists + diag(Inf(m, 1));
+       dists2 = dists;
+       dists = squareform(pdist(centroids));
+       dists = dists + diag(Inf(m, 1));
 %         
-        inew_dists =pdist2(centroids(i,:), centroids);
-        dists(:,i) = inew_dists';
-        dists(i,:) = inew_dists;
-        dists(:,j) = inf;
-        dists(j,:) = inf;
-        dists(find(centroids(:,1)==inf), find(centroids(:,1)==inf))=NaN;
-        for l = 1:m
-            dists(l,l)=inf;
-        end
         
-        %find(~(dists==dists2)==1)
+        inew_dists =pdist2(centroids(i,:), centroids);
+        dists2(:,i) = inew_dists';
+        dists2(i,:) = inew_dists;
+        dists2(:,j) = inf;
+        dists2(j,:) = inf;
+        
+        sum(~(A==A),'all')
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         %                                                                     %
         %                            END YOUR CODE                            %
