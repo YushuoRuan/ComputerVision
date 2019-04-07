@@ -87,7 +87,7 @@ function segments = ComputeSegmentation(img, k, clusteringMethod, featureFn, ...
     
     % Apply the clustering algorithm to get an assignment of each point to
     % a cluster.
-    idx = clusterFn(points, k);
+    idx = clusterFn(points, k, 1);
     
     % The clustering algorithm gives a vector of cluster identities, but we
     % want a rectangular array of the same size as the image so we reshape

@@ -97,6 +97,7 @@ function idx = HAClustering(X, k, visualize2D)
     end
     
     while num_clusters > k
+        disp(num_clusters)
         
         
         % Find the pair of clusters that are closest together.

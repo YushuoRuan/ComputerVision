@@ -21,4 +21,14 @@ function featuresNorm = NormalizeFeatures(features)
 %                HINT: The functions mean and std may be useful                %
 %                                                                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    uj=mean(features,[1 2]);
+    sj=std(features,0, [1 2]);
+    featuresNorm = (features-uj)./sj;
+%     
+%    featuresNorm(:,:,4)= featuresNorm(:,:,4)./5;
+%    featuresNorm(:,:,5)= featuresNorm(:,:,5)./5;
+    
+    %gradients, edges, SIFT or SURF descriptors:
+    
 end
