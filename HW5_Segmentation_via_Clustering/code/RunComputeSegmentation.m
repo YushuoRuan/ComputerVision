@@ -1,3 +1,9 @@
+%======================
+%Yushuo Ruan                             
+%CSCI 5722
+%Assignment #4 Stereo_Segmentation
+%Instructor: Ioana Fleming
+%======================
 % Simple script to run ComputeSegmentation.
 tic
 % Read the input image.
